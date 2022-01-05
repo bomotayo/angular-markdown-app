@@ -1,0 +1,50 @@
+.container {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-left: right;
+}
+
+textarea {
+  min-width: 99%;
+  max-width: 99%;
+  height: 40vh;
+  border: none;
+  margin-top: -18px;
+}
+textarea:focus {
+  outline: none;
+}
+.editor-sec {
+  border: 1px solid black;
+  width: 50%;
+  margin-bottom: 10px;
+  margin-left: 5%;
+}
+#preview {
+  width: 60%;
+  border: 1px solid black;
+}
+h3 {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top: -1px;
+  background-color: rgb(87, 205, 165);
+}
+.prev-sec {
+  background-color: white;
+  margin-top: -20px;
+  margin-bottom: -14px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+  .editor-sec {
+    width: 90%;
+  }
+  #preview {
+    width: 105%;
+  }
+}
